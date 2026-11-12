@@ -19,26 +19,27 @@ folder as `app.py`.
 
 Streamlit Community Cloud is free for public apps and needs no server setup.
 
-1. **Put the app in a GitHub repository.** From this folder:
+1. **The app is already on GitHub** at
+   <https://github.com/Maestro05-coder/my-repo> (branch `main`). To push
+   future updates:
 
    ```bash
-   git init
-   git add app.py transactions.csv requirements.txt README.md .streamlit/config.toml .gitignore
-   git commit -m "Streamlit customer segmentation app"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<your-repo>.git
-   git push -u origin main
+   git add .
+   git commit -m "Update dashboard"
+   git push
    ```
 
-   Only these files are needed to deploy. `.venv/` and `plots/` are not
-   required; `.gitignore` already excludes the virtualenv.
+   Only these files are needed to deploy: `app.py`, `transactions.csv`,
+   `requirements.txt`, `README.md`, `.streamlit/config.toml`. `.venv/`,
+   `__pycache__/` and `plots/` are not required; `.gitignore` already
+   excludes them.
 
 2. Go to <https://share.streamlit.io> and sign in with GitHub.
 
 3. Click **Create app** → **Deploy a public app from GitHub**.
 
 4. Fill in:
-   - **Repository:** `<your-username>/<your-repo>`
+   - **Repository:** `Maestro05-coder/my-repo`
    - **Branch:** `main`
    - **Main file path:** `app.py`
 
