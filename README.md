@@ -20,8 +20,8 @@ folder as `app.py`.
 Streamlit Community Cloud is free for public apps and needs no server setup.
 
 1. **The app is already on GitHub** at
-   <https://github.com/Maestro05-coder/my-repo> (branch `main`). To push
-   future updates:
+   <https://github.com/Maestro05-coder/Customer-Segmentation-Analysis-ML-Project>
+   (branch `main`). To push future updates:
 
    ```bash
    git add .
@@ -39,7 +39,7 @@ Streamlit Community Cloud is free for public apps and needs no server setup.
 3. Click **Create app** → **Deploy a public app from GitHub**.
 
 4. Fill in:
-   - **Repository:** `Maestro05-coder/my-repo`
+   - **Repository:** `Maestro05-coder/Customer-Segmentation-Analysis-ML-Project`
    - **Branch:** `main`
    - **Main file path:** `app.py`
 
